@@ -1,0 +1,73 @@
+
+body {
+  margin: 0;
+  padding: 0;
+
+  background-color: #004882;
+  height: 100%;
+  font-family: Tahoma, sans-serif;
+  color: white;
+
+
+
+}
+
+.heading{
+
+  text-align: center;
+  
+  color: white;
+
+}
+
+.data_image{
+float:left;
+
+margin-left: 200px; 
+margin-top: 50px;
+ border:5px solid black;
+
+}
+
+.train_image{
+
+  float:left;
+  margin-left: 200px; 
+  margin-top: 50px;
+  border:5px solid black;
+
+}
+
+.prediction_image{
+
+   float:left;
+   
+   margin-top: 75px;
+   margin-left: 35%;
+   border: 5px solid black;
+
+
+}
+.desc1{
+  padding-right: 0px;
+  position: absolute;
+  top: 425px;
+  margin-left: 875px;
+}
+.desc2{
+  position: absolute;
+  top: 425px;
+  margin-left: 275px;
+
+
+}
+
+.desc3{
+  position: absolute;
+  margin-left: 575px;
+
+ margin-top: 47%;
+ margin-bottom: 25px;
+
+
+}

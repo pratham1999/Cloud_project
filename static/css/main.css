@@ -1,0 +1,104 @@
+html{
+
+	height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  background-image: url("Stocks-earning.jpg");
+  background-color: #cccccc;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  font-family: Tahoma, sans-serif;
+
+
+
+}
+
+
+.choose{
+
+text-align: center;
+color: white;	
+margin-top: 200px;
+
+
+}
+
+.heading{
+
+	text-align: center;
+	
+	color: white;
+
+}
+
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.box select {
+  background-color: #0563af;
+  color: white;
+  padding: 12px;
+  width: 400px;
+  border: none;
+  font-size: 20px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+  -webkit-appearance: button;
+  appearance: button;
+  outline: none;
+}
+
+.box::before {
+  content: "\f13a";
+  font-family: FontAwesome;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20%;
+  height: 100%;
+  text-align: center;
+  font-size: 28px;
+  line-height: 45px;
+  color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.1);
+  pointer-events: none;
+}
+
+.box:hover::before {
+  color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.box select option {
+  padding: 30px;
+}
+input[type=submit]{
+
+  width: 100px;
+  height:50px;
+  background-color: #0563af;
+  border-radius: 5px;
+   position: absolute;
+  right: 425px;
+  margin-top: 22px;
+  color: white;
+
+}
+
+input[type=submit]:hover{
+  
+  background-color: #92a8d1;
+
+
+
+
+}
